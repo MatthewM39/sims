@@ -1,0 +1,15 @@
+	lw      0       1       five    load reg1 with 5 (uses symbolic address)
+	lw      0       2       neg1       load reg2 with -1 (uses numeric address
+	noop
+	noop
+	add     1       2       3       decrement reg1
+	add     2       3       4       decrement reg1
+	add     4       4       7       decrement reg1
+	noop
+done    halt                            end of program
+	noop
+	noop
+	noop
+	noop
+five    .fill   5
+neg1    .fill   2
